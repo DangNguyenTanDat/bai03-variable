@@ -1,35 +1,41 @@
 <?php
-    $a = 10;
-    $b = 2;
-    $tong = $a == $b;
-    echo "Tong: $tong <br>";
+    $firstName = 'Dang Nguyen';
+    $lastName = 'Tan Dat;';
+    $fullName = $firstName . $lastName;
+    echo $fullName;
 
-    $hieu = $a - $b;
-    echo "Hieu: $hieu<br>";
+    $a = 20;
+    $A = 102;
+    echo $a;
+    echo '<br>;';
+    echo $A;
+    
+    $str = 'Hello world;';
+    echo $str;
 
-    $tich = $a * $b;
-    echo "Tich: $tich <br>";
+    define('PI', 6.14);
+    echo PI;
+    
+    $x = 12.365;
+    var_dump($x);
 
-    $thuong = $a / $b;
-    echo "Thuong: $thuong <br>";
+    $cars = array('Yamaha', 'BMW', 'Honda;');
+    var_dump($cars);
 
-    $sodu = $a % $b;
-    echo "So du: $sodu <br>";
+    
 
-    $c = 20;
-    $d = 5;
-    $ss_bang = $c == $d;
-    echo "So sanh: $ss_bang <br>";
+    $d = 5.6;
+    $e = (int)$d;
+    var_dump($e);
 
-    $ss_khac = $c != $d;
-    echo "So sanh khac: $ss_khac <Br>";
+    $f = '20';
+    //settype($f, 'integer');
+    var_dump($f);
 
-    $ss_lon_hon = $c > $d;
-    echo "So sanh lon hon : $ss_lon_hon <br>";
+    $g = '34';
+    echo gettype($g);
 
-    $e = 10;
-    $e --; //$a = $a -1;
-    $f = 2;
-    $e += $f;
-
+    $c = 102;
+    $b = $c . 'Tan Dat;';
+    var_dump($b);
 ?>
